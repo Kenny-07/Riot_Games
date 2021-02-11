@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family:'Hammersmith One', sans-serif;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #111111;
+    justify-content: space-between;
+}
+.navbar{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+    width: 35%;
+    height: 100%;
+    display: flex;
+
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.head a{
+    color: #F9F9F9;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.search{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.head img{
+    width: 140px;
+}
+.search img{
+    width: 20px;
+    position: relative;
+    margin-left: 10px;
+}
+.search input{
+    text-transform: uppercase;
+    color: #9D9C9C;
+
+    width: 150px;
+    height: 30px;
+
+    border-radius: 14px;
+    background-color: #2B2A29;
+    padding-left: 40px;
+    position: absolute;
+}
+.search input:focus{
+    outline: none;
+}
+.banner{
+    width: 100%;
+    justify-content: center;
+}
+.banner img{
+    width: 100%;
+}
+.banner h1{
+    height: 100%;
+    font-size: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 350px;
+    color: #E7E6E3;
+    text-shadow: 3px 3px 0 #000,
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+}
+.more{
+    display: flex;
+
+    width: 200px;
+    height: 50px;
+    background-color: #D1363A;
+
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+}
